@@ -1,0 +1,5 @@
+LIBRARY "WatchEXP"
+EXPORTS
+    GetInterfaceVersion
+    CreatePluginInfo
+    CreatePlugin
