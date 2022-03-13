@@ -538,9 +538,9 @@ void WatchEXP::doEXPCalculations()
     unsigned short expLEFT = expMAX - expIN;
 
     // get Exemplar/Master level info
-    unsigned short exemplarIN = m_AshitaCore->GetDataManager()->GetPlayer()->GetMasteryExp();
-    unsigned short exemplarMAX = m_AshitaCore->GetDataManager()->GetPlayer()->GetMasteryExpNeeded();
-    unsigned short exemplarLEFT = exemplarMAX - exemplarIN;
+    unsigned long exemplarIN = m_AshitaCore->GetDataManager()->GetPlayer()->GetMasteryExp();
+    unsigned long exemplarMAX = m_AshitaCore->GetDataManager()->GetPlayer()->GetMasteryExpNeeded();
+    unsigned long exemplarLEFT = exemplarMAX - exemplarIN;
 
     // get the Merit info
     unsigned short lmtIN = m_AshitaCore->GetDataManager()->GetPlayer()->GetLimitPoints();
